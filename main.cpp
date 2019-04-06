@@ -1,8 +1,14 @@
-//
+// helloworld.cpp
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-int main()
-{
-        return EXIT_SUCCESS;
+int x;
+int main() {
+    x = 1;
+    printf("Hello Douglas!!\n");
+    x = 2;
+
+    return 0;
 }
